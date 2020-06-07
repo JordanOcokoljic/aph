@@ -8,6 +8,10 @@ from the command line. It also includes utilities to measure how much time the
 hash took to generate with the provided settings and the length of the
 resulting as it would need to be stored in a database.
 
+It allows users to be able to determine what parameters are safe to use on each
+machine they may generate hashes on, as well as rougly gauging the performance
+impact of the parameters they choose.
+
 
 Usage
 -------

@@ -162,8 +162,8 @@ func TestGenerateHash(t *testing.T) {
 		t.Fatalf(err.Error())
 	}
 
-	if rs.Seconds != seconds {
-		t.Errorf("expected seconds to be %d but was %d", seconds, rs.Seconds)
+	if rs.Time != seconds {
+		t.Errorf("expected seconds to be %d but was %d", seconds, rs.Time)
 	}
 
 	if rs.Threads != threads {
@@ -208,8 +208,8 @@ func TestGenerateHashWithSalt(t *testing.T) {
 		t.Fatalf(err.Error())
 	}
 
-	if rs.Seconds != seconds {
-		t.Errorf("expected seconds to be %d but was %d", seconds, rs.Seconds)
+	if rs.Time != seconds {
+		t.Errorf("expected seconds to be %d but was %d", seconds, rs.Time)
 	}
 
 	if rs.Threads != threads {
